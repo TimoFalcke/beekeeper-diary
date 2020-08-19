@@ -6,15 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/01_AllHives.unity
+    path: Assets/Scenes/HiveGallery.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/02_HiveInitialization.unity
+    path: Assets/Scenes/HiveInitialization.unity
     guid: 97dff040379ba614699d79242968fd73
   - enabled: 1
-    path: Assets/Scenes/03_HiveOverview.unity
+    path: Assets/Scenes/HiveOverview.unity
     guid: d5750dafbcf40ce47abc670f8757d5d0
   - enabled: 1
-    path: Assets/Scenes/04_Checkup.unity
+    path: Assets/Scenes/Checkup.unity
     guid: 4bca8e5b61492e3409193df0e394e696
   m_configObjects: {}
