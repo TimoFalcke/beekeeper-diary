@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+/// <summary>
+/// Main script for the HiveOverview scene
+/// </summary>
 public class HiveScreen : MonoBehaviour
 {
     [Header("UI Elements")]
@@ -19,6 +22,9 @@ public class HiveScreen : MonoBehaviour
         SetupCurrentHive();
     }
 
+    /// <summary>
+    /// Setup scene based on currenntHive (loaded from PlayerPrefs path)
+    /// </summary>
     void SetupCurrentHive()
     {
         HiveData currentHive = 
@@ -34,6 +40,9 @@ public class HiveScreen : MonoBehaviour
         checkupGallery.Setup(currentHive.id);
     }
 
+    /// <summary>
+    /// Set CurrentCheckup path to "" to create a new Checkup in the Checkup scene -> called by "New Checkup" button
+    /// </summary>
     public void ClearCurrentCheckupPath()
     {
         PlayerPrefs.SetString(checkupDataModifier.currentDataObjectPath, "");
